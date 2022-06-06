@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;600&display=swap');
 
 *{
     box-sizing: border-box;
@@ -10,11 +10,12 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
 
     margin: 0;
 
-    background-image: url('https://cdn.discordapp.com/attachments/930798381163495454/983164984303427614/logo.png?size=4096');
+    object-fit: cover;
+    background-image: url('https://cdn.discordapp.com/attachments/930798381163495454/983207341996515388/jr-korpa-9XngoIpxcEo-unsplash.jpg?size=4096');
     background-size: cover;
     background-repeat: no-repeat;
     /* background-image: linear-gradient(
@@ -25,12 +26,14 @@ body{
     height: 100vh;
 }
 
-h6 {
-    background-color: white;
-    border: 2px solid transparent;
-    padding: 3px;
-    border-radius: 0.4rem;
+#musicPlayerTitle{
+    position: absolute;
+    bottom: 75%;
 
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    
+
+    padding: 0.5rem;
 }
 
 .music-container{
@@ -43,7 +46,7 @@ h6 {
   
     background-color: #fff;
     border-radius: 15px;
-    box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6);
+    box-shadow: 0 20px 20px 0 rgba(219, 96, 203, 0.6);
 
     z-index: 10;
 }
@@ -135,7 +138,7 @@ h6 {
 
 .music-info {
     background-color: rgba(255, 255, 255, 0.5);
-
+    box-shadow: 0 0 0.75rem #ee3374;
     border-radius: 15px 15px 0 0;
 
     position: absolute;
@@ -143,7 +146,7 @@ h6 {
     left: 20px;
 
     width: calc(100% - 40px);
-    height: 80px;
+    height: 85px;
     padding: 10px 10px 10px 150px;
     opacity: 0; 
 
@@ -167,7 +170,7 @@ h6 {
     border-radius: 5px;
     
     width: 100%;
-    height: 6px;
+    height: 8px;
 
     cursor: pointer;
 
@@ -175,7 +178,7 @@ h6 {
 }
 
 .progress {
-    background-color: #fe8daa;
+    background-color: black;
     border-radius: 5px;
     
     height: 100%;

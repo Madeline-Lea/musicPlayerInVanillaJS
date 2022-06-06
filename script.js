@@ -20,7 +20,7 @@ const durTime = document.querySelector("#durTIme");
 
 //song titles (calling song titles on click after next or prev event)
 
-const songs = ["intoToDust", "you", "videoTape"];
+const songs = ["intoToDust", "you", "videoTape", "research(slowed)", "lifeMagazine-coldCave"];
 
 /* song index; music initialize from 0 and the list
  keep up until 2, if a song has been added into "songs array",
@@ -29,7 +29,7 @@ const songs = ["intoToDust", "you", "videoTape"];
  ex: 0,1,2,3,4...
  five songs.*/
 
-let songIndex = 2;
+let songIndex = 4;
 
 loadSong(songs[songIndex]);
 
@@ -198,14 +198,11 @@ audio.addEventListener('ended', nextSong);
 
 var playPromise = document.querySelector('audio').play();
 
-// In browsers that don’t yet support this functionality,
-// playPromise won’t be defined.
+
 if (playPromise !== audio) {
   playPromise.then(function() {
-    // Automatic playback started!
+    console.log('is playing something? Yes.')
   }).catch(function(error) {
-    // Automatic playback failed.
-    // Show a UI element to let the user manually start playback.
     console.log(error)
 });
 }
@@ -230,13 +227,13 @@ if (playPromise !== audio) {
 /* var life = true;
 var fun = ["school", "home", "with our friends"];
 
-function loop() {
+
   if (this.life === true) {
     for (moments in this.fun) {
       this.life = "The best part of life is to be with you all time.";
     }
   }
-}
+
 
 prompt(this.life + "  In " + moments);
  */
