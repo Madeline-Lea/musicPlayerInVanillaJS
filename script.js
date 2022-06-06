@@ -20,7 +20,7 @@ const durTime = document.querySelector("#durTIme");
 
 //song titles (calling song titles on click after next or prev event)
 
-const songs = ["intoToDust", "you", "videoTape", "research(slowed)", "lifeMagazine-coldCave"];
+const songs = ["intoToDust", "you", "videoTape"];
 
 /* song index; music initialize from 0 and the list
  keep up until 2, if a song has been added into "songs array",
@@ -29,7 +29,7 @@ const songs = ["intoToDust", "you", "videoTape", "research(slowed)", "lifeMagazi
  ex: 0,1,2,3,4...
  five songs.*/
 
-let songIndex = 4;
+let songIndex = 2;
 
 loadSong(songs[songIndex]);
 
