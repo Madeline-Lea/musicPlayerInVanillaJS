@@ -20,5 +20,18 @@ The menu consist in three buttons with a Music Player function as:
 	
 	play = It stop and resume the music on playing.
 
-	next  Change the song to next one.
+	next = Change the song to next one.
+	
+## How to add songs into the Player.
+
+To insert a new song on queue you need to add your song in a array called "songs" and change something
+
+	const songs = ["intoToDust", "you", "videoTape"];
+	
+	// I highly recommend to put a name like camelPhase.
+
+	let songIndex = 2
+	
+
+	
 	
