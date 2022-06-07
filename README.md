@@ -9,3 +9,5 @@ add your own songs and a playlist.
 ## Music Player Interface
 
 It's a simple UI made with CSS (Cascading Style Sheets) and HTML (Hypertext Markdown Language).
+
+![image](https://user-images.githubusercontent.com/88410502/172335777-768e75b1-6dc8-45f5-8f50-4ada9c3cd9a5.png)
